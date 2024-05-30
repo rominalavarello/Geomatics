@@ -1,4 +1,4 @@
-folder = "/Users/rominalavarello/Desktop/Geomatics/data"
+folder = "/Users/rominalavarello/Desktop/Geomatics"
 
 ## Excercise 1
 
@@ -12,7 +12,7 @@ print("--------------")
 
 ## Excercise 2
 
-ex2path = f"{folder}/01_exe2_data.csv"
+ex2path = f"{folder}/data/01_exe2_data.csv"
 
 with open(ex2path, 'r') as file:
     lines = file.readlines()
@@ -108,7 +108,7 @@ print("--------------")
 
 ## Excercise 9
 
-ex9path = f"{folder}/01_exe9_data.csv"
+ex9path = f"{folder}/data/01_exe9_data.csv"
 with open(ex9path, 'r') as file:
     lines9 = file.readlines()
 
@@ -138,7 +138,7 @@ print("--------------")
 
 ## Excercise 11
 
-ex11path = f"{folder}/01_exe11_data.csv"
+ex11path = f"{folder}/data/01_exe11_data.csv"
 with open(ex11path, 'r') as file:
     lines11 = file.readlines()
     
@@ -237,7 +237,7 @@ print("--------------")
 
 ## Excercise 14
 
-STATIONSpath = f"{folder}/stations.txt"
+STATIONSpath = f"{folder}/data/stations.txt"
 
 with open(STATIONSpath, 'r') as file:
     lines14 = file.readlines()
@@ -353,7 +353,7 @@ for line in lines19[:5]:
 print("--------------")
 
 ## Excercise 20
-ex20path = f"{folder}/station_data.txt"
+ex20path = f"{folder}/data/station_data.txt"
 
 with open(ex20path,'r') as file:
     lines20 = file.readlines()
@@ -444,8 +444,8 @@ print(suma_acc)
 print("--------------")
 
 # Excercise 26
-ex26path1 = f"{folder}/01_exe26_dataset1.csv"
-ex26path2 = f"{folder}/01_exe26_dataset2.csv"
+ex26path1 = f"{folder}/data/01_exe26_dataset1.csv"
+ex26path2 = f"{folder}/data/01_exe26_dataset2.csv"
 
 dataset1_dict = {}
 
