@@ -3,6 +3,8 @@
 from pyqgis_scripting_ext.core import *
 
 folder = "/Users/rominalavarello/Desktop/Geomatics/"
+
+#Change this one for where you have your full GPKG
 gpkgPATH = folder + "natural_earth_vector.gpkg/packages/natural_earth_vector.gpkg"
 
 # Path for the new GeoPackage
