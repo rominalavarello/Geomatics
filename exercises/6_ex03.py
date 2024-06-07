@@ -1,4 +1,5 @@
-# exercise 03
+# exercise 03: CREATE A GPKG WITH THE COUNTRIES CENTROIDS
+
 from pyqgis_scripting_ext.core import *
 
 folder = "/Users/rominalavarello/Desktop/Geomatics/"
