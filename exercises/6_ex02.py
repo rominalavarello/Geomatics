@@ -4,8 +4,8 @@ from pyqgis_scripting_ext.core import *
 osm = HMap.get_osm_layer()
 # HMap.add_layer(osm)
 
-folder = "/Users/rominalavarello/Downloads/natural_earth_vector.gpkg/packages/"
-gpkgPATH = folder + "natural_earth_vector.gpkg"
+folder = "/Users/rominalavarello/Desktop/Geomatics/"
+gpkgPATH = folder + "miniGPKG.gpkg"
 
 
 # COUNTRIES
@@ -49,7 +49,7 @@ for feature in countriesFeatures:
 
 # CITIES
 
-citiesName = "ne_50m_populated_places"
+citiesName = "ne_10m_populated_places"
 citiesLayer = HVectorLayer.open(gpkgPATH, citiesName)
 # HMap.add_layer(citiesLayer)
 
