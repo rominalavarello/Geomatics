@@ -1,2 +1,4 @@
 
 natural_earth_vector.gpkg/CHANGELOG
+*.gpkg-shm
+*.gpkg-wal
