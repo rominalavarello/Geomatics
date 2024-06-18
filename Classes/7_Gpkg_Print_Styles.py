@@ -86,6 +86,7 @@ riversLayerItaly.set_graduated_style('scalerank', ranges, styles, labelStyle)
 
 
 
+
 # lineStyle = HStroke("lightcyan",1)
 
 # labelProperties = {
